@@ -1,0 +1,16 @@
+.headings { 
+    text-align: center; 
+  
+    .main-heading {
+      font-size: 2em; 
+      margin-bottom: 0.5em;
+      color: #ff9800; 
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    }
+  
+    .sub-heading {
+      font-size: 1em;
+      color: rgba(255, 255, 255, 0.7); 
+      font-weight: 300; 
+    }
+  }
