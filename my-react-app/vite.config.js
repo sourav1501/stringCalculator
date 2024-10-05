@@ -7,7 +7,10 @@ export default defineConfig({
     port: 3000,   
 
   },
-  build: {
-    outDir: 'dist', 
-  },
+ "builds": [
+    {
+      "src": "vite.config.js",
+      "use": "@vercel/vite"
+    }
+  ]
 });
