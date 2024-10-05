@@ -10,7 +10,7 @@ export default defineConfig({
  "version": 2,
   "builds": [
     {
-      "src": "src/main.jsx",
+      "src": "string-calculator/vite.config.js", 
       "use": "@vercel/vite"
     }
   ],
